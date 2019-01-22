@@ -1,0 +1,69 @@
+/*Play with this when you understand how to set up your local server*/
+body {
+  font-size: 16px;
+  padding: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 0px;
+  background-color: #d3d3d3;
+}
+
+p{
+  font-style: italic;
+}
+
+h1{
+  padding: 0px;
+  font-size: 42px;
+}
+
+h2{
+  padding: 0px;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.strong{
+  font-weight: 600;
+  font-size: 38px;
+  padding: 20px 0px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
+
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1
+}
+
+article {
+ flex: 4
+}
